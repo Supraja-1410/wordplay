@@ -42,7 +42,7 @@ def longest_word(words):
 
 
 def palindromes(words):
-    return [w for w in words if w == w[::-1] and len(w) > 1]
+    return [w for w in words if w == w[::-1] ]
 
 
 def two_letter_words(words):
