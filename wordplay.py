@@ -1,7 +1,7 @@
 # wordplay.py
 # Program to process a word list and answer given tasks
 
-def load_words(filename="wordlist.txt"):
+def load_words(filename="wordplay.txt"):
     """Load words from a file into a list."""
     with open(filename, "r") as f:
         return [w.strip().lower() for w in f.readlines() if w.strip()]
